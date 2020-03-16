@@ -2,14 +2,16 @@
 
 .container
 {
-	display: flex;
-	justify-content: center;
+    display: flex;
+	justify-content: space-around;
+    width: 1000px;
+    margin: auto;
 }
 
 #left-column
 {
 	background-color:#FECA07;
-	width:30%
+	width:30%;
 }
 
 
@@ -72,4 +74,40 @@ h1
 #right-column
 {
 	margin-left:5%;
+}
+
+.box
+{
+    display:flex;
+}
+
+.box p
+{
+    margin: 0px;
+}
+
+hr
+{
+    background-color:#FECA07;
+    border: 0px;
+    height: 2px;
+}
+
+img
+{
+    text-decoration-color: red;
+}
+
+#name
+{
+    height: 220px;
+    margin-top: 100px;
+}
+
+.petit-trait
+{
+    border-top: 2px solid #FECA07;
+    margin: -30px;
+    margin-left: 0px;
+    width: 80px;
 }
