@@ -4,7 +4,7 @@
 {
     display: flex;
 	justify-content: space-around;
-    width: 1000px;
+    width: 1100px;
     margin: auto;
 }
 
@@ -134,4 +134,31 @@ hr
 li
 {
 	min-width:150px;
+}
+
+h3, h4
+{
+	margin:0 0 8px 0;
+}
+
+h3
+{
+	text-transform: uppercase;
+}
+
+h4
+{
+	font-weight:normal;
+}
+
+
+
+ul li 
+{
+	color: #FECA07;
+	font-weight:bold;
+}
+
+#noir {
+	color: black;
 }
