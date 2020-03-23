@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images"
+    "\\images",
+    "\\style"
   ],
-  "SelectedNode": "\\images\\circle.png.crdownload",
+  "SelectedNode": "\\style\\style.css",
   "PreviewInSolutionExplorer": false
 }
