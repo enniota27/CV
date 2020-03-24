@@ -10,10 +10,6 @@ p {
 	line-height: 1.5em;
 }
 
-header {
-	display: block;
-}
-
 /* COLONNE DE DROITE */
 
 #left-column
@@ -104,16 +100,22 @@ h1
 	font-size:3em;
 }
 
-.petit-trait {
+.petit-trait
+{
 	border-top: 2px solid #5C6BC0;
 	margin: -30px;
 	margin-left: 0px;
 	width: 80px;
 }
 
-.name p
+#name p
 {
 	font-size:2em;
+}
+
+#left-column:nth-child(1)
+{
+	order:1;
 }
 
 .box p
@@ -126,11 +128,6 @@ hr
     background-color:#5C6BC0;
     border: 0px;
     height: 2px;
-}
-
-#right-column .name
-{
-	display: none;
 }
 
 ul

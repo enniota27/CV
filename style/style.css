@@ -12,11 +12,6 @@ p {
 	line-height: 1.5em;
 }
 
-header
-{
-	display:none;
-}
-
 /* COLONNE DE DROITE */
 
 #left-column
@@ -114,7 +109,7 @@ h1
 	width: 80px;
 }
 
-.name p
+#name p
 {
 	font-size:2em;
 }
@@ -131,7 +126,7 @@ hr
     height: 2px;
 }
 
-.name
+#name
 {
      margin-top: 50px;
 	 margin-bottom: 100px;
