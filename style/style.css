@@ -9,7 +9,7 @@
 }
 
 p {
-	line-height: 1.5em;
+	line-height: 1.5;
 }
 
 /* COLONNE DE DROITE */
@@ -86,11 +86,6 @@ p {
 	width: 70%;
 }
 
-.box
-{
-	display: flex;
-}
-
 #right-column h2
 {
 	text-transform: uppercase;
@@ -99,10 +94,11 @@ p {
 h1
 {
 	text-transform:uppercase;
-	font-size:3em;
+	font-size:50px;
 }
 
-.petit-trait {
+.petit-trait
+{
 	border-top: 2px solid #5C6BC0;
 	margin: -30px;
 	margin-left: 0px;
@@ -111,12 +107,7 @@ h1
 
 #name p
 {
-	font-size:2em;
-}
-
-.box p
-{
-    margin: 0px;
+	font-size:30px;
 }
 
 hr
@@ -132,14 +123,15 @@ hr
 	 margin-bottom: 100px;
 }
 
-li
+.box
 {
-	min-width:150px;
+	display:flex;
 }
 
-ul li
+dt
 {
-	font-weight: bold;
+	min-width:150px;
+	font-weight:bold;
 }
 
 h3, h4
@@ -155,6 +147,7 @@ h3
 h4
 {
 	font-weight:normal;
+	margin-bottom:-8px;
 }
 
 #exp-pro h2
@@ -169,15 +162,15 @@ h4
 
 #recommandations .box
 {
-	margin-top:40px;
-	justify-content:space-between;
-	margin-bottom:40px;
+	margin-top: 40px;
+	justify-content: space-between;
+	margin-bottom: 40px;
 }
 
 #recommandations .box p:first-child
 {
 	text-transform: uppercase;
-	margin-bottom:10px;
+	margin-bottom: 10px;
 }
 
 #recommandations .box p
@@ -192,10 +185,14 @@ h4
 
 .puce_1
 {
-	list-style-image: url("../images/circle.png");
+	background-image: url("../images/circle.png");
+	background-repeat: no-repeat;
+	padding-left:20px;
 }
 
-li
+dt
 {
-	list-style-image: url("../images/circle2.png");
+	background-image: url("../images/circle2.png");
+	background-repeat: no-repeat;
+	padding-left: 20px;
 }

@@ -2,23 +2,30 @@
 
 .container
 {
-    display: flex;
-	flex-direction:column;
+	display: flex;
+	flex-direction: column;
 }
 
-#left-column:nth-child(1)
-{
+#left-column:nth-child(1) {
 	order: 1;
 }
 
-#right-column
-{
-	width:90%;
-	margin:auto;
+#right-column {
+	width: 90%;
+	margin: auto;
 }
 
-#left-column
+#left-column {
+	width: 90%;
+	margin: auto;
+}
+
+.box
 {
-	width:90%;
-	margin:auto;
+	flex-direction: column;
+}
+
+dd
+{
+	margin-top:8px;
 }
