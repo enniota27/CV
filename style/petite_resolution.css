@@ -10,12 +10,14 @@
 	order: 1;
 }
 
-#right-column {
+#right-column
+{
 	width: 90%;
 	margin: auto;
 }
 
-#left-column {
+#left-column
+{
 	width: 90%;
 	margin: auto;
 }
@@ -23,9 +25,17 @@
 .box
 {
 	flex-direction: column;
+    display: block;
+    margin-bottom: 50px;
 }
 
 dd
 {
 	margin-top:8px;
+}
+
+#recommandations .box div
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

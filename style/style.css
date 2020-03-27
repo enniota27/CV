@@ -162,7 +162,7 @@ h4
 
 #recommandations .box
 {
-	margin-top: 40px;
+	margin-top: 30px;
 	justify-content: space-between;
 	margin-bottom: 40px;
 }
@@ -176,6 +176,7 @@ h4
 #recommandations .box p
 {
 	font-weight: bold;
+    margin-bottom: -10px;
 }
 
 #recommandations .box p:last-child
