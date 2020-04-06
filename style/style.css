@@ -1,11 +1,26 @@
 /* GENERALE */
 
-.container
-{
-    display: flex;
+@font-face {
+	font-family: 'aliceregular';
+	src: url('../font/Alice-Regular-webfont.eot');
+	src: url('../font/Alice-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/Alice-Regular-webfont.woff2') format('woff2'),
+		url('../font/Alice-Regular-webfont.woff') format('woff'),
+		url('../font/Alice-Regular-webfont.ttf') format('truetype'),
+		url('../font/Alice-Regular-webfont.svg#aliceregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	font-family: 'aliceregular', Arial, sans-serif, serif;
+}
+
+.container {
+	display: flex;
 	justify-content: space-around;
-    max-width: 1100px;
-    margin: auto;
+	max-width: 1100px;
+	margin: auto;
 }
 
 p {
